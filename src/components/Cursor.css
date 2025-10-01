@@ -1,0 +1,29 @@
+
+.cursor, .trail {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.cursor {
+  width: 10px;
+  height: 10px;
+  background-color: var(--secondary-synth);
+}
+
+.trail {
+  width: 8px;
+  height: 8px;
+  background-color: var(--primary-synth);
+  transition: opacity 0.1s ease;
+}
+
+body.dark .cursor {
+  background-color: var(--secondary-dark);
+}
+
+body.dark .trail {
+  background-color: var(--primary-dark);
+}

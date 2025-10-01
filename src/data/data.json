@@ -1,0 +1,96 @@
+{
+  "personal": {
+    "name": "Deepika Vusarthi",
+    "role": "Software Engineer | Full-Stack Developer | Systems",
+    "linkedin": "https://www.linkedin.com/in/dvusarth/",
+    "github": "https://github.com/Deepikavusarthi",
+    "email": "dvusarthi@gmail.com",
+    "phone": "(704) 397-9939",
+    "address": "Charlotte, NC (Open to relocate)"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "New-grad Software Engineer (Dec 2024) with strong Python, systems, and ML infrastructure fundamentals. Hands-on academic and industry experience across networking, operating systems, ML inference services, and full-stack development. Skilled in profiling, debugging, and performance tuning. Passionate about building high-performance, reliable systems and applications."
+  },
+  "skills": [
+    { "name": "Python", "level": "90%" },
+    { "name": "C/C++", "level": "80%" },
+    { "name": "C#", "level": "75%" },
+    { "name": "SQL", "level": "80%" },
+    { "name": "Linux/Unix", "level": "85%" },
+    { "name": "JavaScript", "level": "75%" },
+    { "name": "Docker", "level": "70%" },
+    { "name": "PyTorch", "level": "70%" },
+    { "name": "scikit-learn", "level": "65%" },
+    { "name": "ONNX", "level": "60%" }
+  ],
+  "experience": [
+    {
+      "role": "Junior Software Engineer",
+      "company": "Amy Soft Inc",
+      "period": "March 2025 – Present",
+      "description": "Built FastAPI service around PyTorch/ONNX model with async endpoints and batching. Added monitoring with Prometheus + Grafana, optimized preprocessing with Linux profiling, containerized with Docker, deployed on AWS EC2, and created runbooks for on-call operations."
+    },
+    {
+      "role": "Residential Operations & Data Support Assistant",
+      "company": "UNC Charlotte",
+      "period": "June 2024 – Dec 2024",
+      "description": "Streamlined records and feedback tracking in Excel, improved efficiency by 10%, and maintained confidentiality while supporting HRL staff and students."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Networked Systems Lab - HTTP Server & Packet Analysis",
+      "description": "Concurrent HTTP/1.1 server with asyncio, caching, and packet analysis using scapy/tcpdump. Benchmarked with wrk/ab and optimized socket-level performance.",
+      "tags": ["Python", "Linux", "asyncio", "Networking"]
+    },
+    {
+      "name": "Employee Access & Audit System",
+      "description": "C#/.NET Core + SQL Server system with role-based authentication, account lockout, audit trails, and optimized queries with 25% performance improvements.",
+      "tags": ["C#", ".NET", "SQL Server"]
+    },
+    {
+      "name": "Travel Nano",
+      "description": "Full-stack Flask platform with authentication, posting, commenting, and currency conversion APIs. Implemented security measures including CSRF protection and input validation.",
+      "tags": ["Flask", "JavaScript", "SQL", "Linux"]
+    },
+    {
+      "name": "clockIn-clockOut",
+      "description": "Time management/attendance tracking application.",
+      "tags": ["C#"]
+    },
+    {
+      "name": "Travel-blog",
+      "description": "A simple travel blogging website.",
+      "tags": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "mood-master",
+      "description": "AI-powered mood tracking app for mental health awareness.",
+      "tags": ["Python", "AI"]
+    },
+    {
+      "name": "demo",
+      "description": "Repository for demos, experiments, and templates.",
+      "tags": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.S. in Computer Science",
+      "institution": "University of North Carolina Charlotte",
+      "period": "Dec 2024",
+      "honors": "Dean’s List Fall 2023 – Spring 2024"
+    }
+  ],
+  "certifications": [
+    { "name": "Network Technician Career Path", "issuer": "Cisco Networking Academy", "date": "Dec 2023" },
+    { "name": "Networking Basics", "issuer": "Cisco Networking Academy", "date": "Dec 2023" },
+    { "name": "Introduction to IoT", "issuer": "Cisco Networking Academy", "date": "Dec 2023" },
+    { "name": "Finetuning Large Language Models", "issuer": "DeepLearning.AI", "date": "2024" },
+    { "name": "Building Systems with the ChatGPT API", "issuer": "DeepLearning.AI", "date": "2024" },
+    { "name": "ChatGPT Prompt Engineering for Developers", "issuer": "DeepLearning.AI", "date": "2024" }
+  ],
+  "technicalTools": ["Git", "GitHub", "GitHub Actions", "Docker", "VS Code", "Jupyter", "Figma", "Prometheus", "Grafana", "Jira", "Slack"],
+  "cloud": ["AWS", "EC2"]
+}
