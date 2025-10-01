@@ -26,7 +26,20 @@ const Education = () => {
               viewport={{ once: true }}
             >
               <h3>{edu.degree}</h3>
-              <p>{edu.institution} | {edu.period}</p>
+              <p className="education-institution">{edu.institution} | {edu.period}</p>
+              {edu.honors && (
+                <p className="education-honors">🏆 {edu.honors}</p>
+              )}
+              {edu.coursework && edu.coursework.length > 0 && (
+                <div className="education-coursework">
+                  <h4>Relevant Coursework:</h4>
+                  <div className="coursework-grid">
+                    {edu.coursework.map((course, i) => (
+                      <span key={i} className="coursework-item">{course}</span>
+                    ))}
+                  </div>
+                </div>
+              )}
             </motion.div>
           ))}
         </div>

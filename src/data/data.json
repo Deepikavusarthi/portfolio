@@ -40,39 +40,52 @@
   ],
   "projects": [
     {
+      "name": "Mood Master - AI-Powered Mental Wellness App",
+      "description": "Innovative AI-powered mood tracking application designed to help individuals track their emotional well-being and gain personalized insights into their mental health. Features daily mood logging, AI insights, calendar view, activity tracking, and self-care recommendations. Built with React frontend, Django/FastAPI backend, and PostgreSQL database.",
+      "tags": ["Python", "JavaScript", "React", "Django", "FastAPI", "AI", "PostgreSQL"],
+      "link": "https://github.com/Deepikavusarthi/Mood-Master__AI_App"
+    },
+    {
+      "name": "Netflix Data Exploration & Visualization",
+      "description": "Comprehensive Netflix content analysis project featuring data exploration, visualization, and business case study. Includes Python-based analysis of Netflix dataset with pandas and matplotlib, uncovering trends in content distribution, ratings, and viewing patterns to provide actionable insights for content strategy.",
+      "tags": ["Python", "Pandas", "Matplotlib", "Data Visualization", "EDA", "Business Analysis"],
+      "link": "https://github.com/Deepikavusarthi/Data-Analyst-Portfolio/tree/main/Netflix%20Project"
+    },
+    {
+      "name": "Target Business Case Study (SQL)",
+      "description": "Advanced SQL-based business case study analyzing Target's business operations and customer behavior. Features complex SQL queries, data modeling, and strategic business insights with comprehensive solution documentation for retail analytics and performance optimization.",
+      "tags": ["SQL", "Business Analysis", "Data Modeling", "Retail Analytics", "Case Study"],
+      "link": "https://github.com/Deepikavusarthi/Data-Analyst-Portfolio/tree/main/Target%20Business%20Case%20Study(SQL)"
+    },
+    {
+      "name": "Zomato Restaurant Data Analysis (SQL)",
+      "description": "SQL-driven analysis of Zomato restaurant data focusing on market trends, customer preferences, and business insights. Comprehensive database querying and analysis to understand restaurant performance, customer ratings, and market dynamics in the food delivery industry.",
+      "tags": ["SQL", "Restaurant Analytics", "Market Analysis", "Data Querying", "Food Industry"],
+      "link": "https://github.com/Deepikavusarthi/Data-Analyst-Portfolio/tree/main/Zomato%20Project(SQL)"
+    },
+    {
+      "name": "Travel Blog Analytics Platform",
+      "description": "Travel blog analytics platform that analyzes travel data using SQL for querying and Python for visualization to uncover trends and insights. Explores destinations, user engagement, and content performance to optimize the travel blog experience.",
+      "tags": ["HTML", "Python", "CSS", "JavaScript", "SQL", "Analytics"],
+      "link": "https://github.com/Deepikavusarthi/Travel_Blog_Project"
+    },
+    {
+      "name": "ClockIn-ClockOut Time Management System",
+      "description": "Professional time management and attendance tracking application built with C# and .NET Core. Features employee time tracking, attendance monitoring, and administrative reporting capabilities with SQL Server integration.",
+      "tags": ["C#", ".NET Core", "SQL Server", "Windows Forms"],
+      "link": "https://github.com/Deepikavusarthi/ClockIn-ClockOut_Project"
+    },
+    {
       "name": "Networked Systems Lab - HTTP Server & Packet Analysis",
-      "description": "Concurrent HTTP/1.1 server with asyncio, caching, and packet analysis using scapy/tcpdump. Benchmarked with wrk/ab and optimized socket-level performance.",
-      "tags": ["Python", "Linux", "asyncio", "Networking"]
+      "description": "Concurrent HTTP/1.1 server implementation with asyncio, caching, and comprehensive packet analysis using scapy/tcpdump. Benchmarked with wrk/ab and optimized for high-performance socket-level operations in Linux environments.",
+      "tags": ["Python", "Linux", "asyncio", "Networking", "Performance"],
+      "link": "https://github.com/Deepikavusarthi"
     },
     {
       "name": "Employee Access & Audit System",
-      "description": "C#/.NET Core + SQL Server system with role-based authentication, account lockout, audit trails, and optimized queries with 25% performance improvements.",
-      "tags": ["C#", ".NET", "SQL Server"]
-    },
-    {
-      "name": "Travel Nano",
-      "description": "Full-stack Flask platform with authentication, posting, commenting, and currency conversion APIs. Implemented security measures including CSRF protection and input validation.",
-      "tags": ["Flask", "JavaScript", "SQL", "Linux"]
-    },
-    {
-      "name": "clockIn-clockOut",
-      "description": "Time management/attendance tracking application.",
-      "tags": ["C#"]
-    },
-    {
-      "name": "Travel-blog",
-      "description": "A simple travel blogging website.",
-      "tags": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      "name": "mood-master",
-      "description": "AI-powered mood tracking app for mental health awareness.",
-      "tags": ["Python", "AI"]
-    },
-    {
-      "name": "demo",
-      "description": "Repository for demos, experiments, and templates.",
-      "tags": []
+      "description": "Enterprise-grade C#/.NET Core application with SQL Server backend featuring role-based authentication, account lockout mechanisms, comprehensive audit trails, and optimized database queries achieving 25% performance improvements.",
+      "tags": ["C#", ".NET Core", "SQL Server", "Security", "Authentication"],
+      "link": "https://github.com/Deepikavusarthi"
     }
   ],
   "education": [
@@ -80,7 +93,17 @@
       "degree": "B.S. in Computer Science",
       "institution": "University of North Carolina Charlotte",
       "period": "Dec 2024",
-      "honors": "Dean’s List Fall 2023 – Spring 2024"
+      "honors": "Dean's List Fall 2023 – Spring 2024",
+      "coursework": [
+        "Data Structures & Algorithms",
+        "Operating Systems/Parallel Programming", 
+        "Computer Networks",
+        "Database Design",
+        "Probability & Statistics",
+        "Web App Development",
+        "Information Security & Privacy",
+        "Software Requirements & Project Mgmt"
+      ]
     }
   ],
   "certifications": [
@@ -92,5 +115,5 @@
     { "name": "ChatGPT Prompt Engineering for Developers", "issuer": "DeepLearning.AI", "date": "2024" }
   ],
   "technicalTools": ["Git", "GitHub", "GitHub Actions", "Docker", "VS Code", "Jupyter", "Figma", "Prometheus", "Grafana", "Jira", "Slack"],
-  "cloud": ["AWS", "EC2"]
+  "cloud": ["AWS"]
 }

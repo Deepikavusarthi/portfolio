@@ -3,15 +3,6 @@ import { motion } from 'framer-motion';
 import Modal from 'react-modal';
 import data from '../data/data.json';
 import '../styles/main.css';
-import project1Image from '../images/project1.jpg';
-import project2Image from '../images/project2.jpg';
-import project3Image from '../images/project3.jpg';
-
-const projectImages = {
-  "images/project1.jpg": project1Image,
-  "images/project2.jpg": project2Image,
-  "images/project3.jpg": project3Image
-};
 
 Modal.setAppElement('#root');
 
@@ -47,7 +38,6 @@ const Projects = () => {
               whileHover={{ scale: 1.05, rotateX: 10, rotateY: 10 }}
             >
               <h3>{project.name}</h3>
-              <img src={projectImages[project.image]} alt={project.name} />
             </motion.div>
           ))}
         </div>
@@ -59,16 +49,48 @@ const Projects = () => {
             className="project-modal"
             overlayClassName="project-modal-overlay"
           >
-            <h2>{selectedProject.name}</h2>
-            <img src={projectImages[selectedProject.image]} alt={selectedProject.name} />
-            <p>{selectedProject.description}</p>
-            <div className="project-tags">
-              {selectedProject.tags.map((tag, i) => (
-                <span key={i}>{tag}</span>
-              ))}
+            <div className="project-modal-header">
+              <h2>{selectedProject.name}</h2>
+              <button className="modal-close-btn" onClick={closeModal} aria-label="Close modal">
+                ×
+              </button>
             </div>
-            <a href={selectedProject.link} target="_blank" rel="noopener noreferrer">View Project</a>
-            <button onClick={closeModal}>Close</button>
+            
+            <div className="project-modal-content">
+              <div className="project-modal-info">
+                <div className="project-description">
+                  <h3>Description</h3>
+                  <p>{selectedProject.description}</p>
+                </div>
+                
+                {selectedProject.tags && selectedProject.tags.length > 0 && (
+                  <div className="project-tags-section">
+                    <h3>Technologies</h3>
+                    <div className="project-tags">
+                      {selectedProject.tags.map((tag, i) => (
+                        <span key={i} className="project-tag">{tag}</span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                
+                <div className="project-modal-actions">
+                  {selectedProject.link && (
+                    <a 
+                      href={selectedProject.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="project-link-btn"
+                    >
+                      View Project
+                    </a>
+                  )}
+                  <button className="project-close-btn" onClick={closeModal}>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
           </Modal>
         )}
       </div>
